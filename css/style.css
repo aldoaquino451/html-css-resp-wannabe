@@ -144,27 +144,21 @@ img {
 
     .row {
         flex-direction: column;
+        gap: 80px;
     }
 
     .row .col {
         width: 100%;
     }
-
-
     
     .steps {
         margin-bottom: 0;
     }
 
     .why-us {
-        background-color: #222222;
-        padding-top: 3rem;
         margin-bottom: 0;
-        padding-bottom: 3rem;
-    }
-
-    .why-us .row .col {
-        padding-bottom: 50px;
+        padding: 3rem 0;
+        background-color: #222222;
     }
 
 }
